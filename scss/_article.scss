@@ -77,17 +77,27 @@ article{
                     text-align: left;
 
                 }
-                .articleContactDatos{
-                    display: flex;
-                    justify-content: center;
-                    text-align: center;
-                    padding: 10px;
+                .articleContactDatosUno{
+                    @include articleContactDatos;
                     
                 }
 
+                .articleContactDatosDos{
+                    @include articleContactDatos;
+                }
+
+                .articleContactDatosTres{
+                    @include articleContactDatos;
+                }
+
                 .contenedorFormulario{
-                    margin: auto;
-                    width: 40%;
+                    display: flex;
+                    .container{
+                        width: 450px;
+                        height: auto;
+                        margin: auto;
+                    }
+                    
 
                     #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 

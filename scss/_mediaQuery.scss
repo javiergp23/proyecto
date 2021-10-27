@@ -1,3 +1,105 @@
+@media only screen and (max-width: 320px) {
+    header{
+        .titleNav{
+            font-size: 20px;
+        }
+        .titleNav_lio{
+            font-size: 20px;
+        }
+    }
+    
+    main{
+        .contenedorMain{
+            .contenedorMainTexto{
+                .mainSaludo{
+                    font-size: 5px;
+                    margin: auto;
+                }
+                .mainFrontend{
+                    font-size: 3px;
+                    margin: auto;
+                }
+                .mainMyName {
+                    font-size: 5px;
+                    margin: auto;
+                }
+            } 
+        }
+    }
+    
+    aside{
+        .asideContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
+            .asideDivImg{
+                display: block;
+                margin: auto;
+            }
+            .asideDivText{
+                padding: 5px;
+                width: 100%;
+            }
+            .asideImg{
+                flex-direction: column;
+                padding: 5px;
+                width: 100%;
+            }
+        }
+    }
+
+    section{
+        .sectionTitle{
+            font-size: 20px;
+        }
+    }
+
+    article{
+        .titleArticleContainer{
+            font-size: 20px;
+        }
+
+        .articleContainer{
+            .articleContent{
+                flex-direction: column;
+            
+                .articleContact_grid{
+                    width:100%;
+                    height: auto;
+                    padding: 10px;
+                    margin: auto;
+                }
+        
+                .contenedorFormulario{
+                    padding: 10px;
+                    .container{
+                        width: 150%;
+                        margin:auto;
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        .footerContainer{
+            width: 100%;
+            height: 220px;
+
+            .footerFinalText{
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        
+    }
+}
+
+
 @media only screen and (max-width: 480px) {
     header{
         .titleNav{
@@ -27,19 +129,21 @@
         }
     }
     
-    .asideContent{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        
-        .asideDivText{
-            padding: 5px;
-            width: 100%;
-        }
-        .asideImg{
-            padding: 5px;
-            width: 100%;
+    aside{
+        .asideContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            
+            .asideDivText{
+                padding: 5px;
+                width: 100%;
+            }
+            .asideImg{
+                padding: 5px;
+                width: 100%;
+            }
         }
     }
 
@@ -54,35 +158,38 @@
             font-size: 20px;
         }
 
-
-        .articleContent{
-            flex-direction: column;
-        
-            .articleContact_grid{
-                width:100%;
-                height: auto;
-                padding: 10px;
-                margin: auto;
-            }
-    
-            .contenedorFormulario{
-                width: 100%;
-                justify-content: center;
-
-                .container{
-                    width: 180%;
+        .articleContainer{
+            .articleContent{
+                flex-direction: column;
+            
+                .articleContact_grid{
+                    width:100%;
+                    height: auto;
                     padding: 10px;
-                    justify-content: center;
                     margin: auto;
+                }
+        
+                .contenedorFormulario{
+                    padding: 10px;
+                    .container{
+                        width: 150%;
+                        margin:auto;
+                    }
                 }
             }
         }
-        
     }
+
     footer{
-        .socialMedia{
-            font-size: 20px;
+        .footerContainer{
+            width: 100%;
+            height: 220px;
+
+            .footerFinalText{
+                text-align: center;
+            }
         }
+        
     }
 }
 
@@ -118,20 +225,22 @@
             }
         }
         
-        .asideContent{
-            display: flex;
-            flex-direction: column;
+        aside{
+            .asideContent{
+                display: flex;
+                flex-direction: column;
 
-            .titleAsideContainer{
-                font-size: 20px;
-            }
-            .asideDivText{
-                
-                width: 100%;
-            }
-            .asideImg{
-                
-                width: 100%;
+                .titleAsideContainer{
+                    font-size: 20px;
+                }
+                .asideDivText{
+                    
+                    width: 100%;
+                }
+                .asideImg{
+                    
+                    width: 100%;
+                }
             }
         }
 
@@ -146,24 +255,24 @@
                 font-size: 20px; 
             }
 
-            .articleContent{
-                flex-direction: column;
+            .articleContainer{
+                .articleContent{
+                    flex-direction: column;
 
-                .articleContact_grid{
-                    width:100%;
-                    height: auto;
-                    padding: 10px;
-                    margin: auto;
-                }
-        
-                .contenedorFormulario{
-                    width: 100%;
-                    height: auto;
-                    padding: 10px;
-                    max-width: 400px;
-
-                    .container{
-                        width: 150%;
+                    .articleContact_grid{
+                        width:100%;
+                        height: auto;
+                        padding: 10px;
+                        margin: auto;
+                    }
+            
+                    .contenedorFormulario{
+                        padding: 10px;
+                        
+                        .container{
+                            width: 150%;
+                            margin:auto;
+                        }
                     }
                 }
             }
