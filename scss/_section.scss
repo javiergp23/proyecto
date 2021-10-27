@@ -1,0 +1,64 @@
+section{
+    width: 100%;
+    height: auto;
+    
+    .sectionContainer{
+        background-color: $colorThree;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .sectionTitle{
+            color: $colorTwo;
+            font-weight: bold;
+            font-size: 50px;
+            padding: 5px;
+            margin-top: 20px;
+            text-align: center;
+            animation-duration: 5s;
+            animation-name: sectionTitle;
+            animation-iteration-count: infinite;
+
+                @keyframes sectionTitle{
+                    0% {
+                        opacity: 0;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+        }
+    }
+
+    .sectionCarousel{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 50px;
+        background-color: $colorThree;
+        
+        .logoHtml{
+            width: 500px;
+            height: 500px;
+        }
+
+        .logoCss{
+            width: 500px;
+            height: 500px;
+        }
+
+        .logoJavascript{
+            width: 3800px;
+            height: 380px;
+            margin-top: 90px;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+main {
+    .contenedorMain{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+        margin-top: 7%;
+        background-image: url(/img/img5.jpg);
+        background-size: cover;
+
+        .contenedorMainTexto{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+
+            .mainSaludo{
+                color: $colorTwo;
+                font-size: 50px;
+                margin: auto;
+                animation-duration: 3s;
+                animation-name: saludo;
+                animation-iteration-count: infinite;
+                margin: auto;
+
+                @keyframes saludo{
+                    0% {
+                        opacity: 0;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+
+            .mainMyName{
+                font-size: 80px;
+                color: $colorTwo;
+                animation-duration: 5s;
+                animation-name: myName;
+                animation-iteration-count: infinite;
+                margin: auto;
+
+                @keyframes myName{
+                    0% {
+                        opacity: 0;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+
+            .mainFrontend{
+                color: $colorTwo;
+                font-size: 50px;
+                animation-duration: 6s;
+                animation-name: frontend;
+                animation-iteration-count: infinite;
+                margin: auto;
+
+                @keyframes frontend{
+                    0% {
+                        opacity: 0;
+                    }
+                    50% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }  
+        }
+    }
+}

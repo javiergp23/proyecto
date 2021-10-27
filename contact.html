@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Contat Portfolio Javier González">
+    <meta name="description" content="Portatafolio de Javier González, sección Contact, dentro de esta sección de la página web, podras encontrar información acerca de todos los datos de contacto y redes sociales del Desarrollador Web de este Portafolio.">
+    <meta name="keywords" content="HTML, CSS, BOOSTRAP, PORTAFOLIO, PORTFOLIO, SASS, GRID, FLEXBOX, NODE JS, NPM, VISUAL STUDIO CODE, WEB, FRONTEND">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/favicon-16x16.png" type="image/ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!---- Boostrap ---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Contact | Portfolio Javier González</title>
+</head>
+<body class="gridContainer"> 
+    <header class="header" id="top">
+        <nav class="navbar navbar-expand-lg navbar-light bgNavBar p-1 border">
+            <div class="container-fluid NavSticky">
+              <h1 class="titleNav">Portfo<span class="titleNav_lio">lio</span></h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item NavHome">
+                    <a class="nav-link active" aria-current="page" href="./index.html"><p class="NavHomeLink">Home</p></a>
+                  </li>
+                  <li class="nav-item NavAbout">
+                    <a class="nav-link" href="./about.html"><p class="NavAboutLink">About</p></a>
+                  </li>
+                  <li class="nav-item NavSkills">
+                    <a class="nav-link" href="./skills.html"><p class="NavSkillsLink">Skills</p></a>
+                  </li>
+                  <li class="nav-item NavContact">
+                    <a class="nav-link" href="./contact.html"><p class="NavContactLink">Contact</p></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="main">
+      <div class="contenedorMain bgMain">
+          <div class=" contenedorMainTexto">
+              <h2 class="mainSaludo">Hello! my name is</h2>
+              <p class="mainMyName">Javier González</p>
+              <p class="mainFrontend">I'm Frontend Developer</p>
+          </div>
+      </div>
+  </main>
+    <article class="article">
+      <div class="articleContainer">
+        <div>    
+          <h4 class="titleArticleContainer">Contact Me</h4>
+          <p class="subTitleArticleContainer">Get in touch</p>
+        </div>
+        <div class="articleContent">
+          <div class="articleContact_grid">
+              <div class="div_GetDos">
+                <P class="articleContactTitleDos">To be able to contact me, here I leave you all the necessary information</P>
+              </div>
+              <div class="articleContactDatos"><img src="./img/user-solid-24.png" class="logoUser" alt="logoUser">
+                <div class="articleContactTextDiv"><P class="articleText">Name</P> <P>Javier González</P></div>
+              </div>
+              <div class="articleContactDatos"><img src="./img/map-solid-24.png" class="logoMap" alt="logoMap">
+                <div class="articleContactTextDiv"><p class="articleText">Adress</p><p>Córdoba, Argentina.</p></div>
+              </div>
+              <div class="articleContactDatos"><img src="./img/mail-send-regular-24.png" class="logoMail" alt="logoMail">
+                <div class="articleContactTextDiv">
+                  <p class="articleText">E-mail</p><p>javgon2306@gmail.com</p>
+                </div>
+              </div>
+          </div>
+          <div class="contenedorFormulario">
+            <div class="container">  
+              <form id="contact" action="" method="post">
+                <p class="titleFormulario">Message Me</p>
+                <fieldset>
+                  <input placeholder="name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+              </form>
+            </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+        <div class="footerContainer">
+          <div class="social-media">
+            <div class="socialMedia">Social Media</div>
+            <div class="links">
+                <a href="https://api.whatsapp.com/send?phone=543512401555" rel="noreferrer" target="_blank"><img src="./img/whatsapp-logo-24.png" class="logoMedia" alt="WhatsappLogo"></a>
+                <a href="https://linkedin.com/in/javier-gonzález-padilla-725265b5" rel="noreferrer" target="_blank"><img src="./img/linkedin-logo-24.png" class="logoMedia" alt="LinkedinLogo"></a>
+                <a href="https://github.com/javiergp23" rel="noreferrer" target="_blank"><img src="./img/github-logo-24.png" class="logoMedia" alt="GithubLogo"></a>
+                <a href="https://www.facebook.com/profile.php?id=100002525418345" rel="noreferrer" target="_blank"><img src="./img/facebook-circle-logo-24.png" class="logoMedia" alt="FaceLogo"></a>
+                <a href="https://www.instagram.com/javiergp23/" rel="noreferrer" target="_blank"><img src="./img/instagram-alt-logo-24.png" class="logoMedia" alt="InstaLogo"></a>
+            </div>
+            <span class="footerCopy">Created by <a href="#">Javier González</a> <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

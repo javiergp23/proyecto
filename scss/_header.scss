@@ -1,0 +1,109 @@
+header {
+    .NavSticky{
+        position: fixed;
+        top: 2px;
+        background-color: $colorTwo;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .titleNav{
+        color: $colorOne;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px;
+        margin-right: 40%;
+        font-size: 60px;
+
+        .titleNav_lio{
+            color: rgb(68, 65, 64);
+        }
+    }
+    
+    .NavHome{
+        transition: all 2s ease;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 30px;
+        border-radius: 15px;
+        
+        .NavHomeLink{
+            color: $colorOne;
+            transition: all 2s ease;
+        }
+        .NavHomeLink:hover{
+            color: $colorTwo;
+        }
+    }
+
+    .NavHome:hover{
+        transform: scale(1,1);
+        background-color: $colorOne;
+    }
+
+    .NavAbout{
+        transition: all 2s ease;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 30px;
+        border-radius: 15px;
+
+        .NavAboutLink{
+            color: $colorOne;
+            transition: all 2s ease;
+        }
+        .NavAboutLink:hover{
+            color: $colorTwo;
+        }
+        
+    }
+
+    .NavAbout:hover{
+        transform: scale(1,1);
+        background-color: $colorOne;
+    }
+
+    .NavSkills{
+        transition: all 2s ease;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 30px;
+        border-radius: 15px;
+
+        .NavSkillsLink{
+            color: $colorOne;
+            transition: all 2s ease;
+        }
+        .NavSkillsLink:hover{
+            color: $colorTwo;
+        }
+    }
+
+    .NavSkills:hover{
+        transform: scale(1,1);
+        background-color: $colorOne;
+    }
+
+    .NavContact{
+        transition: all 2s ease;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 30px;
+        border-radius: 15px;
+        
+        .NavContactLink{
+            color: $colorOne;
+            transition: all 2s ease;
+        }
+        .NavContactLink:hover{
+            color: $colorTwo;
+        }
+    }
+
+    .NavContact:hover{
+        transform: scale(1,1);
+        background-color: $colorOne;
+    }
+    
+
+
+}

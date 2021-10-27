@@ -1,0 +1,186 @@
+@media only screen and (max-width: 480px) {
+    header{
+        .titleNav{
+            font-size: 20px;
+        }
+        .titleNav_lio{
+            font-size: 20px;
+        }
+    }
+    
+    main{
+        .contenedorMain{
+            .contenedorMainTexto{
+                .mainSaludo{
+                    font-size: 20px;
+                    margin: auto;
+                }
+                .mainFrontend{
+                    font-size: 20px;
+                    margin: auto;
+                }
+                .mainMyName {
+                    font-size: 20px;
+                    margin: auto;
+                }
+            } 
+        }
+    }
+    
+    .asideContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+        .asideDivText{
+            padding: 5px;
+            width: 100%;
+        }
+        .asideImg{
+            padding: 5px;
+            width: 100%;
+        }
+    }
+
+    section{
+        .sectionTitle{
+            font-size: 20px;
+        }
+    }
+
+    article{
+        .titleArticleContainer{
+            font-size: 20px;
+        }
+
+
+        .articleContent{
+            flex-direction: column;
+        
+            .articleContact_grid{
+                width:100%;
+                height: auto;
+                padding: 10px;
+                margin: auto;
+            }
+    
+            .contenedorFormulario{
+                width: 100%;
+                justify-content: center;
+
+                .container{
+                    width: 180%;
+                    padding: 10px;
+                    justify-content: center;
+                    margin: auto;
+                }
+            }
+        }
+        
+    }
+    footer{
+        .socialMedia{
+            font-size: 20px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        header{
+            .titleNav{
+                font-size: 35px;
+            }
+            .titleNav_lio{
+                font-size: 35px;
+            }
+        }
+        
+        main{
+            .contenedorMain{
+                .contenedorMainTexto{
+                    .mainSaludo{
+                        font-size: 35px;
+                        margin: auto;
+                    }
+                    .mainFrontend{
+                        font-size: 35px;
+                        margin: auto;
+                    }
+                    .mainMyName {
+                        font-size: 35px;
+                        margin: auto;
+                    }
+                } 
+            }
+        }
+        
+        .asideContent{
+            display: flex;
+            flex-direction: column;
+
+            .titleAsideContainer{
+                font-size: 20px;
+            }
+            .asideDivText{
+                
+                width: 100%;
+            }
+            .asideImg{
+                
+                width: 100%;
+            }
+        }
+
+        section{
+            .sectionTitle{
+                font-size: 20px;
+            }
+        }
+    
+        article{
+            .titleArticleContainer{
+                font-size: 20px; 
+            }
+
+            .articleContent{
+                flex-direction: column;
+
+                .articleContact_grid{
+                    width:100%;
+                    height: auto;
+                    padding: 10px;
+                    margin: auto;
+                }
+        
+                .contenedorFormulario{
+                    width: 100%;
+                    height: auto;
+                    padding: 10px;
+                    max-width: 400px;
+
+                    .container{
+                        width: 150%;
+                    }
+                }
+            }
+        }
+        footer{
+            .socialMedia{
+                font-size: 35px;
+            }
+        }
+    }
+ }
+
+
+
+@media only screen and (min-width: 1200x) {
+    body {
+        padding: 0 50px;
+
+    }
+}

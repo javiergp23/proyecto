@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Portfolio Javier González">
+    <meta name="description" content="Portatafolio de Javier González, en esta página principal de este sitio Web podras encontrar información acerca del Desarrollador Web, los datos relacionados a de su esperiencia, sus habilidades, todos los datos de contacto y redes sociales.">
+    <meta name="keywords" content="HTML, CSS, BOOSTRAP, PORTAFOLIO, PORTFOLIO, SASS, GRID, FLEXBOX, NODE JS, NPM, VISUAL STUDIO CODE, WEB, FRONTEND">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/favicon-16x16.png" type="image/ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+           <!---- Boostrap ---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Portflio | Javier González</title>
+</head>
+<body class="gridContainer containerResponsive"> 
+    <header class="header" id="top">
+        <nav class="navbar navbar-expand-lg navbar-light bgNavBar p-1 border">
+            <div class="container-fluid NavSticky">
+              <h1 class="titleNav">Portfo<span class="titleNav_lio">lio</span></h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item NavHome">
+                    <a class="nav-link active" aria-current="page" href="./index.html"><p class="NavHomeLink">Home</p></a>
+                  </li>
+                  <li class="nav-item NavAbout">
+                    <a class="nav-link" href="./about.html"><p class="NavAboutLink">About</p></a>
+                  </li>
+                  <li class="nav-item NavSkills">
+                    <a class="nav-link" href="./skills.html"><p class="NavSkillsLink">Skills</p></a>
+                  </li>
+                  <li class="nav-item NavContact">
+                    <a class="nav-link" href="./contact.html"><p class="NavContactLink">Contact</p></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="main">
+        <div class="contenedorMain bgMain">
+            <div class=" contenedorMainTexto">
+                <h2 class="mainSaludo">Hello! my name is</h2>
+                <p class="mainMyName">Javier González</p>
+                <p class="mainFrontend">I'm Frontend Developer</p>
+            </div>
+        </div>
+    </main>
+    <aside class="aside">
+      <div class="asideContainer">
+        <div>    
+          <h3 class="titleAsideContainer">About Me</h3>
+          <p class="subTitleAsideContainer">Who I am</p>
+        </div>
+        <div class="asideContent">
+            <div class="asideDivImg">
+              <img src="./img/imgDevelop.png" class="asideImg" alt="imagenAside">
+            </div>
+            <div class="asideDivText">
+              <p class="aside_im">
+                <p class="aside_title">I'm Javier González and I'm a Web Developer</p>
+                and highly motivated and persevering junior level programmer, constantly seeking professional growth. I am passionate about web development, programming languages ​​and frameworks that are constantly being born with new technologies, and I am very curious and eager to learn and improve my skills.
+              </p>
+              <input type="button" class="AsideBoton-css" value="Download CV"/>
+            </div>
+        </div>
+    </div>
+    </aside>
+    <section class="section">
+        <div class="sectionContainer">
+            <div>
+                <h3 class="sectionTitle">My Skills</h3>
+            </div>
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide sectionCarousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/html-5.svg" class="d-block w-100 logoHtml" alt="LogoHtml">
+                        <div class="carousel-caption d-none d-md-block">
+                          <p class="carouselPHtml"></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/css-3.svg" class="d-block w-100 logoCss" alt="logoCss">
+                        <div class="carousel-caption d-none d-md-block">
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/javascript-1.svg" class="d-block w-100 logoJavascript" alt="logoJS">
+                        <div class="carousel-caption d-none d-md-block">
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/nodejs.svg" class="d-block w-100 logoJavascript" alt="logoNodeJS">
+                        <div class="carousel-caption d-none d-md-block">
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/npm.svg" class="d-block w-100 logoJavascript" alt="logoNpm">
+                        <div class="carousel-caption d-none d-md-block">
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/sass.svg" class="d-block w-100 logoJavascript" alt="logoSass">
+                        <div class="carousel-caption d-none d-md-block">
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <article class="article">
+      <div class="articleContainer">
+        <div>    
+          <h4 class="titleArticleContainer">Contact Me</h4>
+          <p class="subTitleArticleContainer">Get in touch</p>
+        </div>
+        <div class="articleContent">
+          <div class="articleContact_grid">
+              <div class="div_GetDos">
+                <P class="articleContactTitleDos">To be able to contact me, here I leave you all the necessary information</P>
+              </div>
+              <div class="articleContactDatos"><img src="./img/user-solid-24.png" class="logoUser" alt="logoUser">
+                <div class="articleContactTextDiv"><P class="articleText">Name</P> <P>Javier González</P></div>
+              </div>
+              <div class="articleContactDatos"><img src="./img/map-solid-24.png" class="logoMap" alt="logoMap">
+                <div class="articleContactTextDiv"><p class="articleText">Adress</p><p>Córdoba, Argentina.</p></div>
+              </div>
+              <div class="articleContactDatos"><img src="./img/mail-send-regular-24.png" class="logoMail" alt="logoMail">
+                <div class="articleContactTextDiv">
+                  <p class="articleText">E-mail</p><p>javgon2306@gmail.com</p>
+                </div>
+              </div>
+          </div>
+          <div class="contenedorFormulario">
+            <div class="container">  
+              <form id="contact" action="" method="post">
+                <p class="titleFormulario">Message Me</p>
+                <fieldset>
+                  <input placeholder="name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+              </form>
+            </div>
+        </div>
+      </div>
+    </article>
+    <footer class="footer">
+        <div class="footerContainer">
+          <div class="social-media">
+            <div class="socialMedia">Social Media</div>
+            <div class="links">
+                <a href="https://api.whatsapp.com/send?phone=543512401555" rel="noreferrer" target="_blank"><img src="./img/whatsapp-logo-24.png" class="logoMedia" alt="WhatsappLogo"></a>
+                <a href="https://linkedin.com/in/javier-gonzález-padilla-725265b5" rel="noreferrer" target="_blank"><img src="./img/linkedin-logo-24.png" class="logoMedia" alt="LinkedinLogo"></a>
+                <a href="https://github.com/javiergp23" rel="noreferrer" target="_blank"><img src="./img/github-logo-24.png" class="logoMedia" alt="GithubLogo"></a>
+                <a href="https://www.facebook.com/profile.php?id=100002525418345" rel="noreferrer" target="_blank"><img src="./img/facebook-circle-logo-24.png" class="logoMedia" alt="FaceLogo"></a>
+                <a href="https://www.instagram.com/javiergp23/" rel="noreferrer" target="_blank"><img src="./img/instagram-alt-logo-24.png" class="logoMedia" alt="InstaLogo"></a>
+            </div>
+            <span class="footerCopy">Created by <a href="#">Javier González</a> <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
