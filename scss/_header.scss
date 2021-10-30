@@ -1,7 +1,7 @@
 header {
     .NavSticky{
         position: fixed;
-        top: 2px;
+        top: 0px;
         background-color: $colorTwo;
         width: 100%;
         z-index: 2;
@@ -36,7 +36,6 @@ header {
     }
 
     .NavHome:hover{
-        transform: scale(1,1);
         background-color: $colorOne;
     }
 

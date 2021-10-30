@@ -28,6 +28,10 @@
     }
     
     aside{
+
+        .titleAsideContainer{
+            font-size: 20px;
+        }
         .asideContent{
             display: flex;
             flex-direction: column;
@@ -62,6 +66,9 @@
         }
 
         .articleContainer{
+            .subTitleArticleContainer{
+                margin-bottom: 5px;
+            }
             .articleContent{
                 flex-direction: column;
             
@@ -70,6 +77,10 @@
                     height: auto;
                     padding: 10px;
                     margin: auto;
+
+                    .div_GetDos{
+                        margin-top: 5px;
+                    }
                 }
         
                 .contenedorFormulario{
@@ -93,6 +104,8 @@
             .footerFinalText{
                 text-align: center;
                 font-size: 12px;
+                justify-content: center;
+                width: 50%;
             }
         }
         
@@ -159,6 +172,9 @@
         }
 
         .articleContainer{
+            .subTitleArticleContainer{
+                margin-bottom: 5px;
+            }
             .articleContent{
                 flex-direction: column;
             
@@ -167,6 +183,10 @@
                     height: auto;
                     padding: 10px;
                     margin: auto;
+                    
+                    .div_GetDos{
+                        margin-top: 5px;
+                    }
                 }
         
                 .contenedorFormulario{
@@ -181,12 +201,16 @@
     }
 
     footer{
+        width: 100%;
+        height: auto;
         .footerContainer{
             width: 100%;
             height: 220px;
-
+            
             .footerFinalText{
                 text-align: center;
+                font-size: 12px;
+                justify-content: center;
             }
         }
         
