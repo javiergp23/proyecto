@@ -79,15 +79,18 @@ article{
                 }
                 .articleContactDatosUno{
                     @include articleContactDatos;
+                    padding-right: 40px;
                     
                 }
 
                 .articleContactDatosDos{
                     @include articleContactDatos;
+                    padding-right: 12px;
                 }
 
                 .articleContactDatosTres{
                     @include articleContactDatos;
+                    padding-left: 35px;
                 }
 
                 .contenedorFormulario{

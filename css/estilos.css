@@ -184,19 +184,28 @@ aside .asideContent {
   aside .asideContent .aside_title {
     font-size: 30px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 20px; }
-  aside .asideContent .aside_im {
+  aside .asideContent .aside_imContent {
     margin-top: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     padding: 20px;
     text-align: left;
     margin-right: 30px; }
+    aside .asideContent .aside_imContent .aside_im {
+      margin-top: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px;
+      text-align: left;
+      margin-right: 30px; }
   aside .asideContent .AsideBoton-css {
     display: inline-block;
     cursor: pointer;
     padding: 20px 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
     border: 1px solid #209CEE;
     -webkit-border-radius: 3px;
     border-radius: 5px;
@@ -270,17 +279,20 @@ article .articleContainer {
       display: flex;
       justify-content: center;
       text-align: center;
-      padding: 10px; }
+      padding: 10px;
+      padding-right: 40px; }
     article .articleContainer .articleContent .articleContactDatosDos {
       display: flex;
       justify-content: center;
       text-align: center;
-      padding: 10px; }
+      padding: 10px;
+      padding-right: 12px; }
     article .articleContainer .articleContent .articleContactDatosTres {
       display: flex;
       justify-content: center;
       text-align: center;
-      padding: 10px; }
+      padding: 10px;
+      padding-left: 35px; }
     article .articleContainer .articleContent .contenedorFormulario {
       display: flex; }
       article .articleContainer .articleContent .contenedorFormulario .container {
@@ -464,7 +476,7 @@ footer .footerContainerSkills {
     font-size: 5px;
     margin: auto; }
   aside .titleAsideContainer {
-    font-size: 20px; }
+    font-size: 15px; }
   aside .asideContent {
     display: flex;
     flex-direction: column;
@@ -480,6 +492,22 @@ footer .footerContainerSkills {
       flex-direction: column;
       padding: 5px;
       width: 100%; }
+    aside .asideContent .aside_title {
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 0;
+      padding: 20px; }
+    aside .asideContent .aside_imContent {
+      margin-top: 5px;
+      font-size: 10px;
+      padding: 20px;
+      text-align: center;
+      margin-left: 40px;
+      width: 80%; }
+      aside .asideContent .aside_imContent .aside_im {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px; }
   section .sectionTitle {
     font-size: 20px; }
   article .titleArticleContainer {
@@ -526,6 +554,8 @@ footer .footerContainerSkills {
   main .contenedorMain .contenedorMainTexto .mainMyName {
     font-size: 20px;
     margin: auto; }
+  aside .asideContainer .titleAsideContainer {
+    font-size: 35px; }
   aside .asideContent {
     display: flex;
     flex-direction: column;
@@ -533,14 +563,27 @@ footer .footerContainerSkills {
     text-align: center; }
     aside .asideContent .asideDivText {
       padding: 5px;
-      width: 100%; }
+      width: 100%;
+      text-align: center;
+      margin: auto; }
     aside .asideContent .asideImg {
       padding: 5px;
       width: 100%; }
-  section .sectionTitle {
-    font-size: 20px; }
-  article .titleArticleContainer {
-    font-size: 20px; }
+    aside .asideContent .aside_Title {
+      padding: 4px;
+      margin-top: 0;
+      margin: auto;
+      text-align: center; }
+    aside .asideContent .aside_imContent {
+      margin: auto;
+      padding: 10px; }
+    aside .asideContent .aside_im {
+      margin: 30px;
+      text-align: center; }
+  section .sectionContainer .sectionTitle {
+    font-size: 35px; }
+  article .articleContainer .titleArticleContainer {
+    font-size: 35px; }
   article .articleContainer .subTitleArticleContainer {
     margin-bottom: 5px; }
   article .articleContainer .articleContent {
@@ -588,6 +631,7 @@ footer .footerContainerSkills {
     body aside .asideContent .titleAsideContainer {
       font-size: 20px; }
     body aside .asideContent .asideDivText {
+      text-align: center;
       width: 100%; }
     body aside .asideContent .asideImg {
       width: 100%; }

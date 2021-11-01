@@ -30,7 +30,7 @@
     aside{
 
         .titleAsideContainer{
-            font-size: 20px;
+            font-size: 15px;
         }
         .asideContent{
             display: flex;
@@ -50,6 +50,27 @@
                 flex-direction: column;
                 padding: 5px;
                 width: 100%;
+            }
+
+            .aside_title{
+                font-size: 15px;
+                font-weight: bold;
+                margin-top: 0;
+                padding: 20px;
+            }
+
+            .aside_imContent{
+                    margin-top: 5px;
+                    font-size: 10px;
+                    padding: 20px;
+                    text-align: center;
+                    margin-left: 40px;
+                    width: 80%;
+                .aside_im{
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin-top: 10px;
+                }
             }
         }
     }
@@ -143,6 +164,12 @@
     }
     
     aside{
+        .asideContainer{
+            .titleAsideContainer{
+                font-size: 35px;
+            }
+        }
+
         .asideContent{
             display: flex;
             flex-direction: column;
@@ -152,23 +179,50 @@
             .asideDivText{
                 padding: 5px;
                 width: 100%;
+                text-align: center;
+                margin: auto;
             }
             .asideImg{
                 padding: 5px;
                 width: 100%;
             }
+
+            .aside_Title{
+                padding: 4px;
+                margin-top: 0;
+                margin: auto;
+                text-align: center;
+            }
+
+            .aside_imContent{
+                margin: auto;
+                padding: 10px;
+            }
+            .aside_im{
+                margin: 30px;
+                text-align: center;
+            }
+
+            
+
         }
     }
 
     section{
-        .sectionTitle{
-            font-size: 20px;
+        .sectionContainer{
+            .sectionTitle{
+                font-size: 35px;
+            }
+
         }
     }
 
     article{
-        .titleArticleContainer{
-            font-size: 20px;
+
+        .articleContainer{
+            .titleArticleContainer{
+                font-size: 35px;
+            }
         }
 
         .articleContainer{
@@ -217,8 +271,6 @@
     }
 }
 
-
-
 @media only screen and (max-width: 768px) {
     body {
         header{
@@ -258,7 +310,7 @@
                     font-size: 20px;
                 }
                 .asideDivText{
-                    
+                    text-align: center;
                     width: 100%;
                 }
                 .asideImg{
