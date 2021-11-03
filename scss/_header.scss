@@ -1,4 +1,8 @@
 header {
+    
+    .container-fluid{
+        height: 120px;
+    }
     .NavSticky{
         position: fixed;
         top: 0px;
@@ -12,7 +16,7 @@ header {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding: 10px;
         margin-right: 40%;
-        font-size: 60px;
+        font-size: 50px;
 
         .titleNav_lio{
             color: rgb(68, 65, 64);
@@ -20,15 +24,15 @@ header {
     }
     
     .NavHome{
-        transition: all 2s ease;
+        transition: all 0.5s ease;
         margin-left: 15px;
         margin-right: 15px;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 15px;
         
         .NavHomeLink{
             color: $colorOne;
-            transition: all 2s ease;
+            transition: all 0.5s ease;
         }
         .NavHomeLink:hover{
             color: $colorTwo;
@@ -40,15 +44,15 @@ header {
     }
 
     .NavAbout{
-        transition: all 2s ease;
+        transition: all 0.5s ease;
         margin-left: 15px;
         margin-right: 15px;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 15px;
 
         .NavAboutLink{
             color: $colorOne;
-            transition: all 2s ease;
+            transition: all 0.5s ease;
         }
         .NavAboutLink:hover{
             color: $colorTwo;
@@ -62,15 +66,15 @@ header {
     }
 
     .NavSkills{
-        transition: all 2s ease;
+        transition: all 0.5s ease;
         margin-left: 15px;
         margin-right: 15px;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 15px;
 
         .NavSkillsLink{
             color: $colorOne;
-            transition: all 2s ease;
+            transition: all 0.5s ease;
         }
         .NavSkillsLink:hover{
             color: $colorTwo;
@@ -83,15 +87,15 @@ header {
     }
 
     .NavContact{
-        transition: all 2s ease;
+        transition: all 0.5s ease;
         margin-left: 15px;
         margin-right: 15px;
-        font-size: 30px;
+        font-size: 20px;
         border-radius: 15px;
         
         .NavContactLink{
             color: $colorOne;
-            transition: all 2s ease;
+            transition: all 0.5s ease;
         }
         .NavContactLink:hover{
             color: $colorTwo;

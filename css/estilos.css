@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box; }
 
+header .container-fluid {
+  height: 120px; }
+
 header .NavSticky {
   position: fixed;
   top: 0px;
@@ -15,19 +18,19 @@ header .titleNav {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 10px;
   margin-right: 40%;
-  font-size: 60px; }
+  font-size: 50px; }
   header .titleNav .titleNav_lio {
     color: #444140; }
 
 header .NavHome {
-  transition: all 2s ease;
+  transition: all 0.5s ease;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 15px; }
   header .NavHome .NavHomeLink {
     color: #209CEE;
-    transition: all 2s ease; }
+    transition: all 0.5s ease; }
   header .NavHome .NavHomeLink:hover {
     color: white; }
 
@@ -35,14 +38,14 @@ header .NavHome:hover {
   background-color: #209CEE; }
 
 header .NavAbout {
-  transition: all 2s ease;
+  transition: all 0.5s ease;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 15px; }
   header .NavAbout .NavAboutLink {
     color: #209CEE;
-    transition: all 2s ease; }
+    transition: all 0.5s ease; }
   header .NavAbout .NavAboutLink:hover {
     color: white; }
 
@@ -51,14 +54,14 @@ header .NavAbout:hover {
   background-color: #209CEE; }
 
 header .NavSkills {
-  transition: all 2s ease;
+  transition: all 0.5s ease;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 15px; }
   header .NavSkills .NavSkillsLink {
     color: #209CEE;
-    transition: all 2s ease; }
+    transition: all 0.5s ease; }
   header .NavSkills .NavSkillsLink:hover {
     color: white; }
 
@@ -67,14 +70,14 @@ header .NavSkills:hover {
   background-color: #209CEE; }
 
 header .NavContact {
-  transition: all 2s ease;
+  transition: all 0.5s ease;
   margin-left: 15px;
   margin-right: 15px;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 15px; }
   header .NavContact .NavContactLink {
     color: #209CEE;
-    transition: all 2s ease; }
+    transition: all 0.5s ease; }
   header .NavContact .NavContactLink:hover {
     color: white; }
 
@@ -510,7 +513,8 @@ footer .footerContainerSkills {
         font-size: 15px;
         font-weight: bold;
         margin-top: 10px;
-        text-align: justify; }
+        text-align: justify;
+        text-justify: inter-word; }
   section .sectionTitle {
     font-size: 20px; }
   article .titleArticleContainer {
@@ -582,7 +586,8 @@ footer .footerContainerSkills {
       padding: 10px; }
     aside .asideContent .aside_im {
       margin: 10px;
-      text-align: justify; }
+      text-align: justify;
+      text-justify: inter-word; }
   section .sectionContainer .sectionTitle {
     font-size: 35px; }
   article .articleContainer .titleArticleContainer {
